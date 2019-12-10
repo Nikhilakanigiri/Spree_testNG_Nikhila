@@ -25,6 +25,7 @@ public class SuiteManager {
     public void launchUrl() {
         DriverManager.driver.manage().window().maximize();
         String baseUrl = config.getProperty("base_url");
+
         DriverManager.driver.get(baseUrl);
     }
 
