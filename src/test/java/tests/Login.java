@@ -1,4 +1,4 @@
-package tests;
+/*package tests;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -22,8 +22,8 @@ public class Login {
         driver.manage().window().maximize();
 
         driver.findElement(By.id("link-to-login")).click();
-        String Email= "kanigirinikhila9@gmail.com";
-        String searchfield=By.cssSelector("keywords");
+        //String Email= "kanigirinikhila9@gmail.com";
+        //String searchfield=By.cssSelector("keywords");
 
         if(driver.findElement(By.linkText("Create a new account")).isDisplayed())
             System.out.println("New Account creation");
@@ -49,3 +49,4 @@ public class Login {
 
     }
 
+*/

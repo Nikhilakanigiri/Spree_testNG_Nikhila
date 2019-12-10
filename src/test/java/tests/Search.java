@@ -1,4 +1,4 @@
-package tests;
+/*package tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ public class Search {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.get("https://spree-vapasi-prod.herokuapp.com/");
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();*/
 /*
 
         driver.findElement(By.id("keywords")).sendKeys(searchfield);
@@ -30,11 +30,11 @@ public class Search {
         for (int i = 0; i < elementsList.size(); i++) {
             System.out.println("Products List:" + elementsList.get(i).getAttribute("id"));
         }
-        */
+
         //click on second item
         String productTitle=driver.findElement(By.className("info_mt-3_d-block")).getText();
         System.out.println("Name of Product selected displayed");
-        driver.findElement(By.cssSelector("div[className='row_d-flex'][1]")).click();
+        driver.findElement(By.cssSelector("div[className='row_d-flex'][1]")).click();*/
 
         /* Add to CArt
         String selectproductTitle=driver.findElement(By.className("product-title mt-2")).getText();
@@ -62,5 +62,5 @@ public class Search {
 
 
 
-    }
-}
+  //  }
+//}

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="3251" started-at="2019-12-09T11:42:41Z" finished-at="2019-12-09T11:42:44Z">
+  <suite name="Default Suite" duration-ms="3276" started-at="2019-12-10T04:26:59Z" finished-at="2019-12-10T04:27:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3251" started-at="2019-12-09T11:42:41Z" finished-at="2019-12-09T11:42:44Z">
+    <test name="Test" duration-ms="3276" started-at="2019-12-10T04:26:59Z" finished-at="2019-12-10T04:27:02Z">
       <class name="Logintest">
-        <test-method status="PASS" signature="startDriver()[pri:0, instance:Logintest@d041cf]" name="startDriver" is-config="true" duration-ms="1437" started-at="2019-12-09T11:42:39Z" finished-at="2019-12-09T11:42:41Z">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:Logintest@56cbfb61]" name="startDriver" is-config="true" duration-ms="1253" started-at="2019-12-10T04:26:58Z" finished-at="2019-12-10T04:26:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="launchUrl()[pri:0, instance:Logintest@d041cf]" name="launchUrl" is-config="true" duration-ms="1964" started-at="2019-12-09T11:42:41Z" finished-at="2019-12-09T11:42:43Z">
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:Logintest@56cbfb61]" name="launchUrl" is-config="true" duration-ms="2062" started-at="2019-12-10T04:26:59Z" finished-at="2019-12-10T04:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:Logintest@d041cf]" name="logintest" duration-ms="1276" started-at="2019-12-09T11:42:43Z" finished-at="2019-12-09T11:42:44Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:Logintest@56cbfb61]" name="logintest" duration-ms="1203" started-at="2019-12-10T04:27:01Z" finished-at="2019-12-10T04:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Logintest@d041cf]" name="quitDriver" is-config="true" duration-ms="79" started-at="2019-12-09T11:42:44Z" finished-at="2019-12-09T11:42:44Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Logintest@56cbfb61]" name="quitDriver" is-config="true" duration-ms="87" started-at="2019-12-10T04:27:02Z" finished-at="2019-12-10T04:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
